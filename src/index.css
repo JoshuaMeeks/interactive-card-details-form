@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.styling-container {
+  height: 14em;
+  background-color: hsl(278, 68%, 11%);
+}
