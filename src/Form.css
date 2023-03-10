@@ -1,3 +1,8 @@
 form {
   width: 20em;
 }
+
+input {
+  display: block;
+}
+
