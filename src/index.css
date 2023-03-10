@@ -5,6 +5,6 @@
 }
 
 .styling-container {
-  height: 14em;
-  background: linear-gradient(hsl(278, 94%, 30%), hsl(278, 68%, 11%));
+  height: 15em;
+  background: url('./Resources/images/bg-main-mobile.png');
 }
