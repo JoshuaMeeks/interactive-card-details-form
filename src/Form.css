@@ -1,8 +1,13 @@
 form {
   width: 20em;
+  font-size: .8rem;
 }
 
 input {
   display: block;
+}
+
+::placeholder {
+  font-size: 18px;
 }
 
