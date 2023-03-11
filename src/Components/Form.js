@@ -5,15 +5,15 @@ export const Form = () => {
   return (
     <form>
       <label htmlFor="name">
-        <span>Cardholder Name</span>
+        <span>CARDHOLDER NAME</span>
         <input id="name" type="text" placeholder='e.g. Jane Appleseed'/>
       </label>
       <label htmlFor="number">
-        <span>Cardholder Number</span>
+        <span>CARDHOLDER NUMBER</span>
         <input id="number" type="number" placeholder="e.g. 1234 5678 9123 0000" />
       </label>
       <label htmlFor="exp-date">
-        <span>Exp. Date (MM/YY)</span>
+        <span>EXP. DATE (MM/YY)</span>
         <input id="exp-date" type="number" placeholder="MM" />
         <input id="exp-date" type="number" placeholder="YY" />
       </label>
@@ -21,6 +21,7 @@ export const Form = () => {
         <span>CVC</span>
         <input id="cvc" type="number" placeholder="e.g. 123" />
       </label>
+      <button>Confirm</button>
     </form>
   )
 }
