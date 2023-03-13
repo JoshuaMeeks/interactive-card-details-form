@@ -1,6 +1,6 @@
 form {
   width: 20em;
-  margin-top: 7.5em;
+  margin-top: 5.2em;
 }
 
 label {
@@ -13,6 +13,7 @@ input {
   padding: 1em;
   border-radius: 10px;
   border: hsl(270, 3%, 87%) solid 1px;
+  margin: .6em 0 1.4em 0;
 }
 
 ::placeholder {
