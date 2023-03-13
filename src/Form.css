@@ -1,7 +1,11 @@
 form {
   width: 20em;
-  font-size: .8rem;
   margin-top: 7.5em;
+}
+
+label {
+  font-size: .8em;
+  letter-spacing: .1em;
 }
 
 input {
