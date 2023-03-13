@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <div className="styling-container"></div>
-      <img src={cardBack} alt="card back" />
-      <img src={cardFront} alt="card front" />
+      <img src={cardBack} alt="card back" className="card-back" />
+      <img src={cardFront} alt="card front" className="card-front" />
       <Form />
     </>
   );

@@ -15,3 +15,9 @@
 img {
   height: 160px;
 }
+
+.card-back {
+  position: absolute;
+  top: 2em;
+  right: 1em;
+}
