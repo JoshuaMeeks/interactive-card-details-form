@@ -11,3 +11,7 @@
   height: 15em;
   background: url('./Resources/images/bg-main-mobile.png');
 }
+
+img {
+  height: 160px;
+}
