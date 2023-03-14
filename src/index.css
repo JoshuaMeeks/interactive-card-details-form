@@ -27,3 +27,9 @@ img {
   top: 7.6em;
   left: 1em;
 }
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 6em;
+}

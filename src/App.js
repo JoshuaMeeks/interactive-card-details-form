@@ -8,7 +8,9 @@ function App() {
       <div className="styling-container"></div>
       <img src={cardBack} alt="card back" className="card-back" />
       <img src={cardFront} alt="card front" className="card-front" />
-      <Form />
+      <div className="form-container">
+        <Form />
+      </div>
     </>
   );
 }
