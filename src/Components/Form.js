@@ -9,7 +9,7 @@ export const Form = () => {
         <input id="name" type="text" placeholder='e.g. Jane Appleseed'/>
       </label>
       <label htmlFor="number">
-        <span>CARDHOLDER NUMBER</span>
+        <span>CARD NUMBER</span>
         <input id="number" type="number" placeholder="e.g. 1234 5678 9123 0000" />
       </label>
       <label htmlFor="exp-date">

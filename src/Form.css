@@ -1,14 +1,16 @@
 form {
   width: 20em;
-  margin-top: 5.2em;
+  margin: 5.2em 1em 0 2em;
 }
 
 label {
   font-size: .8em;
   letter-spacing: .1em;
+  color: hsl(278, 68%, 11%);
 }
 
 input {
+  width: 100%;
   display: block;
   padding: 1em;
   border-radius: 10px;
