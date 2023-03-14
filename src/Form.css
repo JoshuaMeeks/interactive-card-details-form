@@ -1,6 +1,5 @@
 form {
   width: 20em;
-  border: solid red 1px;
 }
 
 label {
@@ -47,8 +46,11 @@ input {
 
 button {
   width: 100%;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(278, 68%, 11%);
   font-size: 1.1em;
-  margin: .4em 0 2em 0;
-  padding: .6em;
+  margin: .4em 0 2.4em 0;
+  padding: .8em;
+  border: solid hsl(278, 68%, 11%) 1px;
   border-radius: 5px;
 }
