@@ -12,15 +12,21 @@ export const Form = () => {
         <span>CARD NUMBER</span>
         <input id="number" type="number" placeholder="e.g. 1234 5678 9123 0000" />
       </label>
-      <label htmlFor="exp-date">
-        <span>EXP. DATE (MM/YY)</span>
-        <input id="exp-date" type="number" placeholder="MM" />
-        <input id="exp-date" type="number" placeholder="YY" />
-      </label>
-      <label htmlFor="">
-        <span>CVC</span>
-        <input id="cvc" type="number" placeholder="e.g. 123" />
-      </label>
+      <div className="bottom-form-container">
+        <div className="exp-date-container">
+          <label htmlFor="exp-date">
+            <span>EXP. DATE (MM/YY)</span>
+            <input id="exp-date" type="number" placeholder="MM" className='month-date'/>
+            <input id="exp-date" type="number" placeholder="YY" className='year-date'/>
+          </label>
+        </div>
+        <div className="cvc-container">
+          <label htmlFor="cvc">
+            <span>CVC</span>
+            <input id="cvc" type="number" placeholder="e.g. 123" />
+          </label>
+        </div>
+      </div>
       <button>Confirm</button>
     </form>
   )

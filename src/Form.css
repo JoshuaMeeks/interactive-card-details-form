@@ -23,3 +23,15 @@ input {
   color: hsl(270, 3%, 87%);
 }
 
+.bottom-form-container {
+  display: flex;
+}
+
+.month-date {
+  width: 5em;
+}
+
+.year-date {
+  width: 5em;
+}
+
