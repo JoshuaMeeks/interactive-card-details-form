@@ -27,7 +27,6 @@ input {
 }
 
 .exp-date-container {
-  border: solid red 1px;
   width: 50%;
 }
 
@@ -37,8 +36,10 @@ input {
 
 .month-date {
   width: 5em;
+  margin-right: .6em;
 }
 
 .year-date {
   width: 5em;
+  margin-right: 1em;
 }
