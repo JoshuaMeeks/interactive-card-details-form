@@ -16,8 +16,10 @@ export const Form = () => {
         <div className="exp-date-container">
           <label htmlFor="exp-date">
             <span>EXP. DATE (MM/YY)</span>
-            <input id="exp-date" type="number" placeholder="MM" className='month-date'/>
-            <input id="exp-date" type="number" placeholder="YY" className='year-date'/>
+            <div className="test-container">
+              <input id="exp-date" type="number" placeholder="MM" className='month-date'/>
+              <input id="exp-date" type="number" placeholder="YY" className='year-date'/>
+            </div>
           </label>
         </div>
         <div className="cvc-container">

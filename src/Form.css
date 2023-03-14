@@ -1,6 +1,5 @@
 form {
   width: 20em;
-  margin: 5.2em 1em 0 2em;
 }
 
 label {
@@ -27,6 +26,15 @@ input {
   display: flex;
 }
 
+.exp-date-container {
+  border: solid red 1px;
+  width: 50%;
+}
+
+.test-container {
+  display: flex;
+}
+
 .month-date {
   width: 5em;
 }
@@ -34,4 +42,3 @@ input {
 .year-date {
   width: 5em;
 }
-
