@@ -10,7 +10,9 @@ function App() {
         <span className="card-back-text">000</span>
         <img src={cardBack} alt="card back" className="card-back" />
       </div>
-      {/* <img src={cardFront} alt="card front" className="card-front" /> */}
+      <div className="card-front-container">
+        <img src={cardFront} alt="card front" className="card-front" />
+      </div>
       <div className="form-container">
         <Form />
       </div>
