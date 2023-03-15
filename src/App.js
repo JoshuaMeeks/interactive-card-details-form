@@ -6,8 +6,11 @@ function App() {
   return (
     <>
       <div className="styling-container"></div>
-      <img src={cardBack} alt="card back" className="card-back" />
-      <img src={cardFront} alt="card front" className="card-front" />
+      <div className="card-back-container">
+        <span className="card-back-text">000</span>
+        <img src={cardBack} alt="card back" className="card-back" />
+      </div>
+      {/* <img src={cardFront} alt="card front" className="card-front" /> */}
       <div className="form-container">
         <Form />
       </div>

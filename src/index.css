@@ -16,13 +16,13 @@ img {
   height: 160px;
 }
 
-.card-back {
+.card-back-container {
   position: absolute;
   top: 2em;
   right: 1em;
 }
 
-.card-front {
+.card-front-container {
   position: absolute;
   top: 7.6em;
   left: 1em;
@@ -32,4 +32,12 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 6em;
+}
+
+.card-back-text {
+  color: red;
+  /* position: relative; */
+  font-size: .5em;
+  top: -17em;
+  margin-right: auto;
 }
