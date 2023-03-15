@@ -35,9 +35,9 @@ img {
 }
 
 .card-back-text {
-  color: red;
-  /* position: relative; */
+  color: hsl(0, 0%, 100%);
+  position: relative;
   font-size: .5em;
-  top: -17em;
-  margin-right: auto;
+  top: -9.7em;
+  left: 32em;
 }
