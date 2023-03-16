@@ -17,6 +17,7 @@ img {
 }
 
 .card-back-container {
+  background: url('./Resources/images/bg-card-back.png');
   position: absolute;
   top: 2em;
   right: 1em;
@@ -26,6 +27,7 @@ img {
   position: absolute;
   top: 7.6em;
   left: 1em;
+  border: solid red 1px;
 }
 
 .form-container {
@@ -40,4 +42,13 @@ img {
   font-size: .5em;
   top: -9.7em;
   left: 32em;
+}
+
+.card-logo {
+  z-index: 1;
+  width: 2em;
+  height: auto;
+  position: relative;
+  left: 2em;
+  top: -4em;
 }
